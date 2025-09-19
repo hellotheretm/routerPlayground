@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "routerPlayground",
     "name": "routerPlayground",
     "slug": "routerPlayground",
     "version": "1.0.0",
