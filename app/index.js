@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Main page</Text>
 
-      <LinkButton page='about' text='GO to about page'/>
+      <LinkButton page='about' text='GO to about page' icon='aim' iconSize={32} iconColor='black'/>
       <LinkButton page='contact' text='GO to contact page'/>
       <LinkButton page='profile' text='GO to profile page'/>
     </View>
