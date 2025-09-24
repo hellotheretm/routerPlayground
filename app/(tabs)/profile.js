@@ -1,16 +1,14 @@
 import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import LinkButton from '../components/LinkButton';
+import LinkButton from '../../components/LinkButton';
 
-export default function App() {
+
+export default function Profile() {
   return (
     <View style={styles.container}>
-      <Text>Main page</Text>
-
-      <LinkButton page='about' text='GO to about page'/>
-      <LinkButton page='contact' text='GO to contact page'/>
-      <LinkButton page='profile' text='GO to profile page'/>
+      <Text>Profile page</Text>
+      <LinkButton page='/' text='HOME'/>
     </View>
   );
 }
@@ -18,7 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#968fd8ff',
     alignItems: 'center',
     justifyContent: 'space-evenly',
   },

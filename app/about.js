@@ -7,7 +7,6 @@ export default function About() {
   return (
     <View style={styles.container}>
       <Text>About page</Text>
-      <LinkButton page='contact' text='GO to contact page'/>
       <LinkButton page='/' text='HOME'/>
     </View>
   );
