@@ -2,12 +2,16 @@ import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
-export default function LinkButton({page, text, icon, iconSize, iconColor}) {
+export default function LinkButton({page, text, creator, icon, iconSize, iconColor}) {
   return (
     <View style={styles.container}>
-      <AntDesign name={icon} size={iconSize} color={iconColor}/>
-      <Link href={page}>{text}</Link>
+      
+      <Link href={page}>
+        <AntDesign name={icon} size={iconSize} color={iconColor}/>
+        {text}
+      </Link>
     </View>
   );
 }

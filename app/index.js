@@ -8,9 +8,9 @@ export default function App() {
     <View style={styles.container}>
       <Text>Main page</Text>
 
-      <LinkButton page='about' text='GO to about page' icon='aim' iconSize={32} iconColor='black'/>
-      <LinkButton page='contact' text='GO to contact page'/>
-      <LinkButton page='profile' text='GO to profile page'/>
+      <LinkButton page='about' text='About' icon="question-circle" iconSize={28} iconColor="black" />
+      <LinkButton page='contact' text='Contact' icon="phone" iconSize={32} iconColor="black" />
+      <LinkButton page='profile' text='Profile' icon='user' iconSize={32} iconColor="black" />
     </View>
   );
 }

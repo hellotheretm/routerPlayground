@@ -7,7 +7,9 @@ export default function About() {
   return (
     <View style={styles.container}>
       <Text>About page</Text>
-      <LinkButton page='/' text='HOME'/>
+      <LinkButton page='contact' text='Contact' icon="phone" iconSize={32} iconColor="black" />
+      <LinkButton page='profile' text='Profile' icon='user' iconSize={32} iconColor="black" />
+      <LinkButton page='/' text='' icon='home' iconSize={32} iconColor='black'/>
     </View>
   );
 }

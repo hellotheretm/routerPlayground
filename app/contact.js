@@ -7,8 +7,9 @@ export default function Contact() {
   return (
     <View style={styles.container}>
       <Text>CONTACTO page</Text>
-      <LinkButton page='about' text='GO to contact page'/>
-      <LinkButton page='/' text='HOME'/>
+      <LinkButton page='about' text='About' icon="question-circle" iconSize={28} iconColor="black" />
+      <LinkButton page='profile' text='Profile' icon='user' iconSize={32} iconColor="black" />
+      <LinkButton page='/' text='' icon='home' iconSize={32} iconColor='black'/>
     </View>
   );
 }
