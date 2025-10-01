@@ -9,6 +9,7 @@ export default function TabLayout() {
         >
             <Tabs.Screen name='profile' options={{title: "Profile Page"}}/>
             <Tabs.Screen name='map' options={{title: "Maps Page"}}/>
+            <Tabs.Screen name='camera' options={{title: "Camera Page"}}/>
         </Tabs>
     )
 }
