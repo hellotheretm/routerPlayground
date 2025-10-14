@@ -2,6 +2,7 @@ import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import LinkButton from '../components/LinkButton';
+import myColors from '../constants/colorSheet'
 
 export default function App() {
   return (
@@ -19,7 +20,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: myColors.primary,
     alignItems: 'center',
     justifyContent: 'space-evenly',
   },
