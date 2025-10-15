@@ -32,7 +32,7 @@ export default function Customize() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: myColors.primaryLight,
+        backgroundColor: myColors.primary,
         alignItems: 'center',
         justifyContent: 'space-evenly',
     },
