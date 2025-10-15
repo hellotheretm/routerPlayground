@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import { useState } from 'react';
 import LinkButton from '../components/LinkButton';
 import DropDownPicker from 'react-native-dropdown-picker';
+import myColors from '../constants/colorSheet';
 
 export default function Customize() {
     const [open, setOpen] = useState(false);
@@ -31,7 +32,7 @@ export default function Customize() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: myColors.primary,
         alignItems: 'center',
         justifyContent: 'space-evenly',
     },
