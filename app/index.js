@@ -10,7 +10,7 @@ export default function App() {
       <Text>Main page</Text>
 
       <LinkButton page='about' text='About' icon="question-circle" iconSize={28} iconColor="black" />
-      <LinkButton page='contact' text='Contact' icon="phone" iconSize={32} iconColor="black" />
+      <LinkButton page='tic' text='TicTacToe' icon="phone" iconSize={32} iconColor="black" />
       <LinkButton page='profile' text='Profile' icon='user' iconSize={32} iconColor="black" />
       <LinkButton page='customize' text='Customize' icon='user' iconSize={32} iconColor="black" />
     </View>
